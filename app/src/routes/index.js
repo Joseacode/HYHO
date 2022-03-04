@@ -21,7 +21,7 @@ router.post('/create-admin', admin.post); //Tested: Ok
 //User endpoints:
 router.get("/user", user.get);
 router.post('/create-user', user.post);
-router.put('/create-user', user.put);
+// router.put('/create-user', user.put);
 
 
 module.exports = router;
